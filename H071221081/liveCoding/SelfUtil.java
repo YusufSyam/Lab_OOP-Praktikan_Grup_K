@@ -1,4 +1,3 @@
-package tugas_praktik.liveCoding;
 
 public class SelfUtil {
     static String nama = "Muhammad Ilham Syahfithrah Hendra";
