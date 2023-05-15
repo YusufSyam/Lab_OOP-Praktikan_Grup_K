@@ -1,0 +1,53 @@
+@startuml
+
+Dog <|-- Pitbull
+Dog <|-- SiberianHusky
+Dog <|-- Bulldog
+Dog <|-- GermanShepherd
+
+class Dog{
+    {static} # position : int
+    {static} # averageLength : int
+    + move() : void
+    + describe() : void
+} 
+class Pitbull{
+    + move() : void
+    + describe() : void
+}
+class SiberianHusky{
+    + move() : void
+    + describe() : void
+}
+class Bulldog{
+    + move() : void
+    + describe() : void
+}
+class GermanShepherd{
+    + move() : void
+    + describe() : void
+}
+
+
+Smartcar <|-- Smartphone
+Smartcar <|-- Car
+class Smartcar{
+    + move() : void
+    + showDetail() : void
+}
+
+class Smartphone{
+    {static} # price : int
+    {static} # brand : String
+    + move() : void
+    + showDetail() : void
+}
+
+class Car{
+    {static} # totalForwardGear : int
+    {static} # color : String
+    {static} # maxSpeed : int
+    + move() : void
+    + showDetail() : void
+}
+@enduml
