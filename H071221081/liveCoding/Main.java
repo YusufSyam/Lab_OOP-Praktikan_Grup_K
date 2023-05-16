@@ -1,5 +1,4 @@
-import tugas_praktik.liveCoding.Anime;
-import tugas_praktik.liveCoding.SelfUtil;
+
 
 public class Main {
     public static void main(String[] args) {

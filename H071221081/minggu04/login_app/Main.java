@@ -3,10 +3,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import models;
-import utils.StringUtils;
-
-
 public class Main {
     private static ArrayList<User> listUser = new ArrayList<>();
     private static ArrayList<Profile> listUserProfile = new ArrayList<>();
