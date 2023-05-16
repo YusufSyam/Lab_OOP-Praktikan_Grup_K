@@ -1,4 +1,4 @@
-package tugas_praktik.minggu06;
+package minggu06;
 // import javax.swing.text.Position;
 
 public abstract class Dog {

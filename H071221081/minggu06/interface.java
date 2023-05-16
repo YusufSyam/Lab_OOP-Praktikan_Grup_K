@@ -1,4 +1,4 @@
-package tugas_praktik.minggu06;
+package minggu06;
 
 interface movable{
     public void move();
