@@ -1,0 +1,39 @@
+plugins {
+  id 'application'
+  id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit Jupiter for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+
+    // This dependency is used by the application.
+    implementation 'com.google.guava:guava:31.1-jre'
+}
+
+// Apply a specific Java toolchain to ease working on different environments.
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+javafx {
+    version = "17"
+    modules = [ 'javafx.controls' ]
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'kalkulator.App'
+}
+
+tasks.named('test') {
+    // Use JUnit Platform for unit tests.
+    useJUnitPlatform()
+}
