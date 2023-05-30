@@ -1,0 +1,45 @@
+.root {
+    -fx-background-color: rgb(237, 233, 241);
+}
+
+.custom-button1 {
+    -fx-background-color: rgb(0, 255, 191);
+    /* -fx-background-radius: 10px; */
+    -fx-border-radius: 10px;
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20px;
+    -fx-min-width: 200px;
+    -fx-min-height: 50px;
+}
+
+.custom-button2 {
+    -fx-background-color: red;
+    /* -fx-background-radius: 10px; */
+    -fx-border-radius: 10px;
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20px;
+    -fx-min-width: 200px;
+    -fx-min-height: 50px;
+}
+
+.custom-button3 {
+    -fx-background-color: rgb(48, 1, 236);
+    /* -fx-background-radius: 10px; */
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-min-width: 100px;
+    -fx-min-height: 50px;
+}
+
+.custom-button4 {
+    -fx-background-color: black;
+    /* -fx-background-radius: 10px; */
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-min-width: 200px;
+    -fx-min-height: 50px;
+}
