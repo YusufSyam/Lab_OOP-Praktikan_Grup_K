@@ -61,6 +61,14 @@ class User {
     public void setBalance(int balance) {
         this.balance = balance;
     }
+
+    public Object getUsername() {
+        return null;
+    }
+
+    public Object getPassword() {
+        return null;
+    }
 }
 
 class Product {
